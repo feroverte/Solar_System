@@ -8,7 +8,7 @@ const scene = new THREE.Scene();
 // add textureLoader
 const textureLoader = new THREE.TextureLoader();
 const cubeTextureLoader = new THREE.CubeTextureLoader()
-cubeTextureLoader.setPath('/')
+cubeTextureLoader.setPath('/Solar_System/')
 
 // adding textures
 const sunTexture = textureLoader.load("2k_sun.jpg");
